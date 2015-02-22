@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Herson44.GitHub.io : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Herson44.GitHub.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/herson44">View on GitHub</a>
+
+          <h1 id="project_title">Herson44.GitHub.io</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>&lt;!DOCTYPE html&gt;
+
+</p>
+  Developing  Data Products Project  Part 2
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   &lt;!-- This amazingness opens all links in a new tab. --&gt;  
+
+<p>&lt;!-- Grab CDN jQuery, fall back to local if offline --&gt;
+  
+   
+  </p>
+
+<p>
+</p>
+  
+
+<pre><code>&lt;!-- LOGO SLIDE --&gt;
+    &lt;slide class="title-slide segue nobackground"&gt;
+</code></pre>
+
+<p> 
+    </p><h1>
+<a id="developing--data-products-project--part-2" class="anchor" href="#developing--data-products-project--part-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developing  Data Products Project  Part 2</h1>
+    <h2>
+<a id="jhons-hopkings-data-science-specialiciation" class="anchor" href="#jhons-hopkings-data-science-specialiciation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Jhons Hopkings Data Science Specialiciation</h2>
+    <p>Herson44<br>Quantitative Market Research Specialist</p>
+   
+    <a href="https://github.com/herson44/slidifypro/zipball/gh-pages">
+     Download
+    </a>
+   <br>
+
+
+<pre><code>&lt;!-- SLIDES --&gt;
+&lt;slide class="class" id="id" style="background:;"&gt;
+</code></pre>
+
+<p> 
+    </p><h2>
+<a id="iiii-app" class="anchor" href="#iiii-app" aria-hidden="true"><span class="octicon octicon-link"></span></a>iiii App</h2>
+   
+   
+    <ol>
+<li>        Create a App that generate a minipulable histogram</li>
+<li>        in this simple example we have diferent representation by 
+         an specific number of samples</li>
+</ol> 
+
+<p>
+  &lt;!-- Presenter Notes --&gt;
+</p>
+
+<p>
+   
+    </p><h2>
+<a id="iii-data" class="anchor" href="#iii-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>III Data</h2>
+   
+   
+    <blockquote></blockquote> 
+
+<p>iiiii In fact we did not put any data, becuase our aim is just present a demo of shiny
+iiiii So you can crete the same Shiny app with just two file server and ui</p>
+
+<p></p>
+
+<p>
+  &lt;!-- Presenter Notes --&gt;
+</p>
+
+<p>
+   
+    </p><h2>
+<a id="iiii-output" class="anchor" href="#iiii-output" aria-hidden="true"><span class="octicon octicon-link"></span></a>IIII output</h2>
+   
+   
+    <pre><code>print(hist(c(1:20), breaks = 10 , col = 'red', border = 'white'), tag = 'Hist Sample')
+</code></pre> 
+
+<p><img src="figure/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+<pre><code>## $breaks
+##  [1]  0  2  4  6  8 10 12 14 16 18 20
+## 
+## $counts
+##  [1] 2 2 2 2 2 2 2 2 2 2
+## 
+## $density
+##  [1] 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05
+## 
+## $mids
+##  [1]  1  3  5  7  9 11 13 15 17 19
+## 
+## $xname
+## [1] "c(1:20)"
+## 
+## $equidist
+## [1] TRUE
+## 
+## attr(,"class")
+## [1] "histogram"
+</code></pre>
+
+<hr>
+
+<h2>
+<a id="iii--how-to-run-the-app" class="anchor" href="#iii--how-to-run-the-app" aria-hidden="true"><span class="octicon octicon-link"></span></a>III  How to run the App</h2>
+
+<blockquote>
+<p>Download both server and ui file and put in the same charter.
+Open Rstudio and set working directory with a direction that contain the folter with the two files
+(Do not set the direction inside the folder)
+Run the code runApp("name of the folder") 
+An html5 file most be appear</p>
+</blockquote>
+
+<p>
+  &lt;!-- Presenter Notes --&gt;
+</p>
+
+<p>
+   
+    </p><h2>
+<a id="iii--output" class="anchor" href="#iii--output" aria-hidden="true"><span class="octicon octicon-link"></span></a>III  Output</h2>
+   
+   
+    <blockquote></blockquote> 
+
+<p>We get very simple representation of a central limit theorem
+In this case if increas the number of sample you get a more aproximate to Standard Distribution</p>
+
+<p></p>
+
+<p>
+  &lt;!-- Presenter Notes --&gt;
+</p>
+
+<pre><code>&lt;slide class="backdrop"&gt;&lt;/slide&gt;
+</code></pre>
+
+<p></p>
+  <div id="io2012-ptoc">
+    <ul>
+      <li>
+      <a href="#" target="_self" title="iiii App">
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" title="III Data">
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" title="IIII output">
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" title="III  Output">
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  &lt;!--[if IE]&gt;
+    
+    
+  &lt;![endif]--&gt;
+
+  &lt;!-- Load Javascripts for Widgets --&gt;
+
+<p>&lt;!-- LOAD HIGHLIGHTER JS FILES --&gt;
+  
+  
+  &lt;!-- DONE LOADING HIGHLIGHTER JS FILES --&gt;</p>
+
+<p></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
